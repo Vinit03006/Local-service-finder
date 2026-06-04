@@ -1,0 +1,62 @@
+
+.footer{
+    height: 150px;
+    background-Color:#2a173d;
+    display: flex;
+}
+
+.footboxleft{
+    display: flex;
+    flex-direction: column;
+    width:45%;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+}
+.footboxmid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width:45%;
+}
+.footbox{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footboxright{
+    display: flex;
+    flex-direction: column;
+    width: 9%;
+    font-size: 22px;
+    gap: 18px;
+}
+
+
+.divider{
+  width:5px;
+  height:80px;
+  background-color:white;
+}
+      
+
+.footlink{
+    all:unset;
+    cursor: pointer;
+    font-size: 15px;
+    color:white;
+}
+
+.text{
+    color:white;
+    font-size: 15px;
+}
+
+.button{
+    background-color: transparent;
+    border:4px solid #C4560A;
+    color: white;
+}

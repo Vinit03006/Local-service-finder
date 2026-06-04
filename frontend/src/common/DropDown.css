@@ -1,0 +1,29 @@
+.dropdown {
+  position: relative;
+  width: 200px;
+}
+
+.dropdown-selected {
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.dropdown-list {
+  position: absolute;
+  width: 100%;
+  max-height: 150px;
+  overflow-y: auto;
+  z-index: 10;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.dropdown-item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background: rgba(255,255,255,0.08);
+}

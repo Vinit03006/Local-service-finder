@@ -1,0 +1,261 @@
+.pmaindiv2{
+    margin: 0px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+     background-image: url('../assests/bg1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+.pprofilebox{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 19px;
+    position: relative;
+    padding-bottom: 40px;
+    
+  
+    
+}
+
+.pprbox1{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border:1px solid #a8a8a8;
+    border-radius: 4px;
+    background-color: #1a1a1b;
+    padding-bottom: 45px;
+
+}
+
+.pgradientbox{
+    width:100%;
+    height:100px;
+    border-radius: 4px;
+   background: linear-gradient(90deg, #d4e0b8 0%, #b8d9b4 48%, #90b8df 100%);
+   border-bottom: 1px solid white;
+}
+.pavatar{
+    position: absolute;
+    top: 60px;       
+    left: 60px;   
+}
+.pavatar img{
+    width:110px;
+    height:110px;
+    border-radius:50%;
+    object-fit:cover;
+    border:1px solid grey;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+.pnamebox{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    border-radius: 4px;
+    padding-top: 40px;
+    
+}
+
+.puname{
+    font-size: 35px;
+    padding-top: 20px;
+    padding-left: 40px;
+    margin: 0;
+    color: white;
+}
+
+.pchild{
+    display: flex;
+    padding-left: 40px;
+    color: white;
+
+}
+.pdate{
+    font-size:15px;
+    padding-left:5px;
+    color: white;
+}
+
+.pdbox{
+    width:auto;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    border:1px solid #a8a8a8;
+    border-radius: 6px;
+}
+.pchild1{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    border-bottom:1px solid #a8a8a8;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.pchild2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap:10px;
+}
+
+.pchild2row{
+    width: 100%;
+    height: 80px;
+    display:flex ;
+    gap:300px;
+    align-items: center;
+}
+
+.pchild2col{
+    width:30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    gap:20px;
+    color: white;
+}
+.psmallbox{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.psmalltext{ 
+    margin:0;
+}
+.psmalltext1{
+    margin-top: 5px;
+    font-weight: 500;
+    margin:0;
+    color: white;
+}
+
+.pebtn{
+    background: transparent;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid #a8a8a8;
+    margin-right: 5px;
+    color: white;
+}
+
+.pform{
+    border:none;
+    background: transparent;
+    cursor: pointer;
+    font-weight: 500;
+    color: white;
+}
+
+.pform1{
+    border:none;
+    background: transparent;
+    cursor: pointer;
+    font-weight: 500;
+    color: white;
+}
+
+.pform1 option{
+    background: black;
+}
+
+.cpassbox{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    min-height: 80vh;
+    justify-content: center;
+    align-items: center;
+    padding: 19px;  
+}
+
+.passbox{
+    width:55%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    border:none;
+    color:black;
+    background-color: #dddedf;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 3px rgba(155, 155, 155, 0.5)  ;
+    
+}
+
+.sbox{
+    width:60%;
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+}
+
+.passtext1{
+    margin-top: 30px;
+    font-size: 30px;
+    color:rgb(0, 0, 0);
+    font-weight: 500;
+   
+}
+.passtext2{
+    font-size: 15px;
+    color:rgb(0, 0, 0);
+    font-weight: 500;
+   
+}
+
+.sform1{
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-bottom: 2px solid black;
+    color:rgb(0, 0, 0);
+    background: none;
+}
+
+.sform1:focus{
+    outline: none;
+    border-bottom: 2px solid rgb(109, 46, 54);
+
+}
+.sbtn1{
+    margin: 2%;
+    width:100px;
+    height:35px;
+    background-color: darkgreen;
+    border-radius: 4px;
+    border:none;
+    outline: none;
+    color:white;
+}
+.sbtn2{
+    margin: 2%;
+    width:100px;
+    height:35px;
+    background-color: rgb(127, 27, 27);
+    border-radius: 4px;
+    border:none;
+    outline: none;
+    color:white;
+}

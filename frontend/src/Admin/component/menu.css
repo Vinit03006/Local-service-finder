@@ -1,0 +1,142 @@
+ @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=DM+Sans:wght@400;500;600&display=swap');
+
+.menudiv{
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+    min-width: 170px;
+    height: 100vh;
+    background: #2c2c2c;
+    padding: 0;
+    position: sticky;
+    top:0;
+}
+.sidebar-logo {
+    padding: 22px 20px 18px;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.sidebar-logo span {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 0.02em;
+}
+
+.sidebar-logo small {
+    display: block;
+    font-size: 10px;
+    color: rgba(255,255,255,0.3);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-top: 2px;
+}
+
+.sidebar-nav {
+    
+ 
+  padding: 0px;
+  overflow-y: auto;
+  margin-bottom: 0px;
+}
+
+.sidebar-nav li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(255,255,255,0.55);
+    
+    border-left: 3px solid transparent;
+    color: rgba(255,255,255,0.55);
+    transition: all 0.18s;
+}
+
+.sidebar-nav li:hover { 
+    color: #fff; 
+    background: rgba(255,255,255,0.06); 
+    
+}
+.side-link{
+    all:unset;
+    cursor: pointer;
+}
+.nav-icon {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.sidebar-divider {
+    height: 1px; 
+    background: rgba(255,255,255,0.07); 
+    margin: 8px 16px; 
+}
+
+
+.sidebar-bottom {
+    padding: 14px 16px;
+    border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+.logout-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(239,68,68,0.1);
+    border: 1px solid rgba(239,68,68,0.25);
+    color: #f87171;
+    padding: 9px 14px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    width: 100%;
+    font-family: 'DM Sans', sans-serif;
+    transition: background 0.18s;
+}
+.logout-btn:hover { background: rgba(239,68,68,0.18); }
+
+
+.menubox1{
+    width:100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.adnavi{
+    display:flex;
+    flex-direction:column;
+    list-style-type: none;
+    align-items: flex-start;
+    padding-left: 5%;
+}
+
+.adnavi li{
+    width:100%;
+    margin: 1%;
+    padding: 0%;
+}
+
+.adnavi li:hover{
+    background-color: rgb(102, 102, 102);
+}
+
+.adlink{
+    font-size: 22px;
+    color:White;
+    cursor: pointer;
+}
+
+.menubox2{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}

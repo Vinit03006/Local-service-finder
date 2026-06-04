@@ -1,0 +1,185 @@
+.ad-maindiv{
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+.maincontanier1{
+
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    background: #e0e0e0;
+    overflow-y: auto;
+     scrollbar-width: none;       
+    -ms-overflow-style: none;     
+}
+
+.maincontanier1::-webkit-scrollbar {
+    display: none;               
+}
+
+.adminbox{
+    display: flex;
+    width:100%;
+    flex-direction: column;
+    flex:1;
+    padding: 2rem 2rem;
+
+}
+
+
+.ad-grid-4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:14px;
+    margin-bottom: 24px;
+}
+.ad-state-card{
+    background: #fff;
+    border-radius: 14px;
+    padding: 18px 18px 16px;
+    border: none;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    transition: box-shadow 0.2s, transform 0.2s;
+    cursor: default;
+}
+.ad-state-card:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    transform: translateY(-2px);
+}
+
+.ad-state-icon {
+    width: 38px; 
+    height: 38px;
+    border-radius: 10px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.ad-state-label {
+    font-size: 12px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.ad-state-value {
+    font-size: 34px;
+    font-weight: 700;
+    color: white;
+    line-height: 1;
+    font-feature-settings: "tnum";
+}
+
+
+.adtext1{
+    font-size: 15px;
+    color: black;
+}
+.adtext2{
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+}
+.ad-grid-2{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap:14px;
+}
+
+.ad-table-div{
+    padding: 18px;
+    background: #fff;
+    border-radius: 14px;
+    border: none;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    transition: box-shadow 0.2s, transform 0.2s;
+    cursor: default;
+}
+.ad-table-div:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    transform: translateY(-2px);
+}
+.ad-table-title{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Syne',sans-serif;
+    color: Black;
+}
+
+table.ad-table{
+    border-collapse: collapse;
+    width:100%;  
+    
+
+}
+
+table.ad-table thead tr{
+    border-bottom:1px solid rgba(0, 0, 0, 0.7);
+
+}
+table.ad-table th{
+    padding: 12px 16px;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.705);
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    text-align: left;
+    white-space: nowrap;
+}
+
+table.ad-table tbody tr{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.705);
+    transition: background 0.2s;
+    cursor: pointer;
+   
+}
+
+table.ad-table td{
+    padding: 12px 16px; 
+    font-size: 13px;
+    text-align: left;
+    vertical-align: middle;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+
+.ad-usertype{
+    display: inline-flex;
+    align-items: center;
+    gap:5px;
+    font-size: 12px;
+    border-radius: 20px;
+    padding: 3px 10px;
+}
+.ad-usertype.consumer{
+    background: rgba(45,212,164,0.1);
+    border:1px solid rgba(45,212,164,0.2);
+    color:#229b79;
+}
+.ad-usertype.provider{
+    border:1px solid rgba(124,124,240,0.25);
+    background-color: rgba(124,124,240,0.15);
+    color:#5766b1;
+}
+
+.ad-usertype.admin{
+    background: rgba(197, 171, 40, 0.1);
+    border:1px solid rgba(197, 142, 40, 0.2);
+    color:#b18817;
+
+}
+
+
+.ad-chart-div{
+    padding: 18px;
+    background: #fff;
+    border-radius: 14px;
+    border: none;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    transition: box-shadow 0.2s, transform 0.2s;
+    cursor: default;
+}
+

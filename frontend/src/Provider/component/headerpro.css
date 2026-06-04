@@ -1,0 +1,177 @@
+.pheader{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #080d1a;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.pheadbox1{
+   padding: 2.5rem;
+    color:white;
+}
+.pheadbox2{
+    margin:1%;
+     color:white;
+}
+.pheadbox3{
+    display: flex;
+    margin:1%;
+    color:white;
+    width: 10%;
+    align-items: center;
+   
+}
+
+
+.pnavi{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.pnavi li{
+    padding: 10px;
+    margin: 10px;
+}
+
+.plink{
+    all:unset;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.plink3{
+    all:unset;
+    cursor: pointer;
+    font-size: 15px;
+}
+.plink1{
+    all:unset;
+    cursor: pointer;
+    font-size: 17px;
+    padding-right: 5%;
+}
+
+.pbutton3{
+    width:70px;
+    height:30px;
+    border-radius: 5px;
+    background-color: white;
+    color:black;
+}
+.pdropdown{
+    position: relative;
+}
+
+.pdropdown-menu{
+    position: absolute;
+    top:100%;
+    left:0;
+    width:200px;
+    background-color:white;
+    list-style: none;
+    padding: 0;
+    margin:0;
+    border-radius: 5px;
+    box-shadow:  5px 5px 20px rgba(240, 239, 248, 0.5);
+    z-index: 9999;
+    display: none;
+}
+
+.pdropdown-menu.show{
+    display: block;
+}
+
+.pdropdown-menu li{
+    padding: 12px,20px;
+    color: black;
+}
+
+.pdropdown-menu li:hover{
+    background-color: rgba(176, 176, 176, 0.5);
+    border-radius: 5px;
+}
+
+
+.pdropdown1{
+    position: relative;
+}
+
+.pdropdown1-menu{
+    position: absolute;
+    top:100%;
+    left:-60px;
+    width: 200px;
+    background-color:white;
+    list-style: none;
+    padding: 0;
+    margin:0;
+    border-radius: 5px;
+    box-shadow:  5px 5px 20px rgba(240, 239, 248, 0.5);
+    z-index: 9999;
+    display: none;
+}
+
+.pdropdown1-menu.show{
+    display: block;
+}
+
+.pdropdown1-menu li{
+    padding: 12px,20px;
+    color: black;
+}
+
+.pdropdown1-menu li:hover{
+    background-color: rgba(176, 176, 176, 0.5);
+    border-radius: 5px;
+}
+.hiddenbtn{
+    background: transparent;
+    border:none;
+    outline: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.p-user{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(124, 124, 240);
+    margin-bottom: 0;
+    gap:6px;
+}
+
+.p-basic{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    color:white;
+    margin-bottom: 0;
+}
+
+.p-user-badge{
+    margin-top: 2px;
+    padding: 2px 10px;
+    font-size: 10px;
+    font-weight: 500;
+    border-radius: 20px;
+    border:1px solid rgba(124,124,240,0.25);
+    background-color: rgba(124,124,240,0.15);
+    color:#a5b4fc;
+}
+.p-link-2{
+    display: flex;
+    flex-direction: column;
+    gap:0;
+    cursor: pointer;
+    
+}
+

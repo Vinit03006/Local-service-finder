@@ -1,0 +1,242 @@
+
+.bs-maindiv{
+    margin:0px;
+    display: flex;
+    flex-direction: column;   
+    background-color: #0f0f1a;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.bs-main-panel{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    padding: 2rem 2.5rem 3rem;
+}
+.bs-heading{
+    width:100%;
+    display: flex;
+    align-items: flex-start;
+    
+    gap:8px;
+    align-items: center;
+}
+.bs-title{
+    font-size: 26px;
+    font-weight: 500;
+    color: white;
+}
+
+.bs-badge{
+    padding: 2px 10px;
+    font-size: 10px;
+    font-weight: 500;
+    border-radius: 20px;
+    border:1px solid #1ba784d0;
+    background-color: #1ba78447;
+    color:#1ba784;
+}
+.bs-meta{
+    font-size: 13px;
+    color: rgba(232,242,246,0.4);
+}
+
+
+.bs-table-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.25rem;
+    background-color: rgba(255,255,255,0.02);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.bs-table-heading{
+    width: 100%;
+    padding: 1.25rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    gap:10px;
+}
+
+.bs-table-title{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Syne',sans-serif;
+    color: white;
+}
+
+
+.bs-table-span{
+    font-size: 12px;
+    color: rgba(232,242,246,0.4);
+}
+table.bs-table{
+    border-collapse: collapse;
+    width:100%;  
+    
+
+}
+
+table.bs-table thead tr{
+    border-bottom:1px solid rgba(255,255,255,0.07);
+
+}
+table.bs-table th{
+    padding: 12px 16px;
+    font-size: 11px;
+    font-weight: 500;
+    color: rgba(232,242,246,0.4);
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    text-align: left;
+    white-space: nowrap;
+}
+
+table.bs-table tbody tr{
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+    transition: background 0.2s;
+}
+table.bs-table tbody tr:last-child{border-bottom: none;}
+
+table.bs-table tbody tr:hover{background: rgba(255,255,255,0.025);}
+
+table.bs-table td{
+    padding: 12px 16px;
+    
+    font-size: 13px;
+    text-align: left;
+    vertical-align: middle;
+    color: #e7f6e5;
+}
+
+.bs-row-num{
+    font-size: 14px;
+    color: rgba(232,242,246,0.35);
+}
+.bs-row-name{
+    font-size: 14px;
+    font-weight: 500;
+    color: #e7f6e5;
+}
+.bs-row-cate{
+    font-size: 12px;
+    color: rgba(232,242,246,0.35);
+    margin-top: 1px;
+}
+.bs-name{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.bs-name-logo{
+    width:32px;
+    height:32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #1ba784d0;
+    border-radius: 50%;
+    background-color: #1ba78447;
+    color:#1ba784;
+}
+.bs-payment{
+    padding: 2px 10px;
+    font-size: 10px;
+    font-weight: 500;
+    border-radius: 20px;
+    display: inline-flex;
+}
+
+.bs-payment.online{
+     border:1px solid #1ba784d0;
+    background-color: #1ba78447;
+    color:#1ba784;
+}
+
+.bs-payment.cash{
+    background-color: #b3cb3947;
+    border:1px solid #a2b839d0;
+    color:#b2cb39;
+}
+
+.bs-row-desc{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-size: 12px;
+    color: rgba(232,242,246,0.45);
+    max-width: 180px;
+    line-height: 1.5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.bs-row-add{
+    font-size: 14px;
+    color:rgba(232,242,246,0.5)
+}
+.bs-row-add::first-letter{
+    text-transform: uppercase;
+}
+
+
+.bs-row-amount{
+    font-family:'Syne',sans-serif;
+    font-size:14px;
+    font-weight:600;
+    color:#fff;
+}
+.bs-hour{
+    font-size:11px;
+    color:rgba(232,234,242,0.3);
+    margin-top:1px;
+}
+
+.bs-status{
+    padding: 2px 10px;
+    font-size: 10px;
+    font-weight: 300;
+    font-family: 'Syne',sans-serif;
+    border-radius: 10px;
+    display: inline-flex;
+}
+.bs-status.rejected{
+    background-color:#be191937 ;
+    border:1px solid #be1919c1;
+    color:#e11b1b ;
+}
+
+.bs-status.accepted{
+    background-color:#1ac16e32 ;
+    border:1px solid #1ac16ee4;
+    color:#1ac192;
+}
+.bs-status.pending{
+    background-color:#c1a51a32 ;
+    border:1px solid #bec11ae4;
+    color:#c1b91a;
+}
+
+.bs-pay{
+    padding: 4px 10px;
+    font-size: 12px;
+    font-weight: 500;
+    background:#23d1a6c4 ;
+    border:none;
+    border-radius: 10px;
+    color: white;
+}
+
+.bs-del{
+    padding: 4px 10px;
+    font-size: 12px;
+    font-weight: 500;
+    background:#b83e3e ;
+    border:none;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+}

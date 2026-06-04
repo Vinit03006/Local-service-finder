@@ -1,0 +1,99 @@
+.maindiv{
+    margin:0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;   
+}
+
+.about-main{
+    display:flex;
+    flex-direction:column;
+}
+
+/* HERO */
+
+.about-hero{
+    min-height:300px;
+    background:linear-gradient(to right,#121212,#1b1b1b);
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:40px;
+}
+
+.about-hero h1{
+    font-size:45px;
+    margin-bottom:10px;
+}
+
+.about-hero p{
+    width:60%;
+    font-size:18px;
+}
+
+
+/* GENERAL SECTION */
+
+.about-section{
+    padding:60px 20px;
+    text-align:center;
+}
+
+.about-section h2{
+    font-size:35px;
+    margin-bottom:20px;
+}
+
+.about-section p{
+    width:60%;
+    margin:auto;
+    font-size:18px;
+}
+
+
+/* SERVICE CARDS */
+
+.about-services{
+    padding:60px 20px;
+    background:#f5f5f5;
+    text-align:center;
+}
+
+.service-cards{
+    display:flex;
+    justify-content:space-around;
+    margin-top:40px;
+}
+
+.service-card{
+    width:20%;
+    padding:25px;
+    background:white;
+    border-radius:8px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.service-card h3{
+    margin-bottom:10px;
+}
+
+
+/* STEPS */
+
+.steps{
+    display:flex;
+    justify-content:space-around;
+    margin-top:40px;
+}
+
+.step{
+    width:20%;
+}
+
+.step h3{
+    font-size:35px;
+    color:#2d2d2d;
+}

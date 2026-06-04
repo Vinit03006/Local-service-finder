@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap');
+.c-header{
+    height:80px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #070d1a;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+    font-family:'DM Sans',sans-serif;
+}
+
+.c-headbox1{
+    
+    padding: 2.5rem;
+    color:white;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Syne',sans-serif;
+}
+
+.c-headbox1 span{
+    color: #2dd4a4;
+    font-size: 25px;
+    
+}
+.c-headbox2{
+   
+     color:white;
+}
+.c-headbox3{
+    display: flex;
+  
+    
+    width: 10%;
+    align-items: center;
+}
+
+
+.c-navi{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.c-navi li{
+    padding: 10px;
+    margin: 10px;
+}
+
+.c-link{
+    all:unset;
+    cursor: pointer;
+    font-size: 20px;
+}
+.c-link3{
+    all:unset;
+    cursor: pointer;
+    font-size: 15px;
+}
+.c-link1{
+    all:unset;
+    cursor: pointer;
+    font-size: 17px;
+    padding-right: 5%;
+    
+}
+
+.c-button3{
+    width:70px;
+    height:30px;
+    border-radius: 5px;
+    background-color: white;
+    color:black;
+}
+.c-dropdown{
+    position: relative;
+}
+
+.c-dropdown-menu{
+    position: absolute;
+    top:100%;
+    left:0;
+    width:200px;
+    background-color:white;
+    list-style: none;
+    padding: 0;
+    margin:0;
+    border-radius: 5px;
+    box-shadow:  5px 5px 20px rgba(240, 239, 248, 0.5);
+    z-index: 9999;
+    display: none;
+}
+
+.c-dropdown-menu.show{
+    display: block;
+}
+
+.c-dropdown-menu li{
+    padding: 12px,20px;
+    color: black;
+}
+
+.c-dropdown-menu li:hover{
+    background-color: rgba(176, 176, 176, 0.5);
+    border-radius: 5px;
+}
+
+.c-dropdown1{
+    position: relative;
+}
+
+.c-dropdown1-menu{
+    position: absolute;
+    top:100%;
+    left:-60px;
+    width: 200px;
+    background-color:white;
+    list-style: none;
+    padding: 0;
+    margin:0;
+    border-radius: 5px;
+    box-shadow:  5px 5px 20px rgba(240, 239, 248, 0.5);
+    z-index: 9999;
+    display: none;
+}
+
+.c-dropdown1-menu.show{
+    display: block;
+}
+
+.c-dropdown1-menu li{
+    padding: 12px,20px;
+    color: black;
+}
+
+.c-dropdown1-menu li:hover{
+    background-color: rgba(176, 176, 176, 0.5);
+    border-radius: 5px;
+}
+
+.hiddenbtn1{
+    background: transparent;
+    border:none;
+    outline: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.c-user{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2dd4a4;
+    margin-bottom: 0;
+    gap:6px;
+}
+
+.c-basic{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    color:white;
+    margin-bottom: 0;
+}
+.c-user-badge{
+    margin-top: 2px;
+    padding: 2px 10px;
+    font-size: 10px;
+    font-weight: 500;
+    border-radius: 20px;
+    border:1px solid #1ba784d0;
+    background-color: #1ba78447;
+    color:#1ba784;
+}
+
+.c-link-2{
+    display: flex;
+    flex-direction: column;
+    gap:0;
+    cursor: pointer;
+    
+}

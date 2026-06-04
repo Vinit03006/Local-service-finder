@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700&family=DM+Sans:wght@300;400;500&display=swap');
+.r-maindiv{
+    margin:0;
+    display: flex;
+    flex-direction: column;   
+    flex:1;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.r-main-panel{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    padding: 2rem 4rem;
+    background-color:#070d1a;
+}
+
+.r-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    font-family: 'Syne',sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.r-section{
+    width:55%;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.07);
+    border-radius: 15px;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    gap:10px;
+}
+
+.r-field{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    gap:6px;
+}
+
+.r-field label{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(232,242,246,0.4);
+    letter-spacing: 0.02em; 
+}
+
+
+.r-input{
+    width:100%;
+    padding: 10px 14px;
+    color:#e8eaf2;
+    background-color: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.1);
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.2s;
+    border-radius: 14px;
+}
+
+.r-input:focus{
+    border-color: rgba(45,212,164,0.45);
+}
+.r-input::placeholder{
+    color:rgba(232,234,242,0.25);
+}
+
+.r-textarea{
+    resize:vertical;
+    min-height:90px;
+    line-height:1.6;
+}
+
+.r-select {
+    background:rgba(255,255,255,0.04);
+    border:1px solid rgba(255,255,255,0.07);
+    border-radius: 14px;
+    padding: 10px 14px;
+    outline:none;
+    color:white;
+    font-family:'DM Sans',sans-serif;
+    font-size:14px;
+    width:100%;
+    cursor:pointer;
+}
+.r-select option { background:var(--navy2); }
+
+
+.r-btn{
+    display: flex;
+    gap:10px;
+    justify-content: flex-end;
+    margin-top: 6px;
+}
+
+.r-submit{
+    padding :10px 28px;
+    background-color: #33916d;
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 15px;
+
+}
+
+.r-cancel{
+     padding :10px 28px;
+    background-color: transparent;
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2dd4a4;
+    font-size: 15px;
+    border: 1px solid rgba(255,255,255,0.4);
+
+}
